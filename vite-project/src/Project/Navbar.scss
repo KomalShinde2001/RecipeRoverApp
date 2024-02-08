@@ -1,0 +1,108 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(4, 8, 54);
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 7px rgb(183, 182, 182); 
+    .nav{
+        height: 80px;
+        margin: auto;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title{
+          font-family:cursive;
+            font-size: 27px;
+            font-weight: 800;
+            .subtitle{
+            font-family:cursive;
+            color: rgb(246, 165, 36);
+            }
+        }
+        .link{
+            text-decoration: none;
+            font-size:1.3rem;
+            font-weight: 600;
+            padding: 15px;
+        }
+        input{
+            background: transparent;
+            outline: none;
+            height: 20px;
+            font-size: 17px;
+            border: 0;
+            border-bottom: 3px solid rgb(198, 240, 253);
+            margin-right: 15px;
+            text-align: center;
+            padding-bottom: 7px;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 25px;
+            font-weight: 600;
+            background-color: rgb(18, 38, 38);
+           outline: none;
+           border: 1px solid white;
+        } }
+}
+.color{
+color: white;
+}
+.hide{
+    display: none;
+}
+.menu_icon{
+    i{
+        color: white;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 890px){
+    .searchHide{
+        position: absolute;
+        text-align: center;
+        right: 12%;
+        display: block; 
+        input{
+        width: 180px;
+        padding-bottom: 7px;
+        }    
+    }
+    .navbar{
+        width: 100%;
+    .nav{
+        width: 90%;
+        margin: auto;
+    }}
+    .hide{
+        display:block;
+    }
+    .nav_Head{
+       display: none;
+    }
+    .nav_head_menu{
+        position: absolute;
+        height: auto;
+        text-align: center;
+        width: 100%;
+        top: 80px;
+        left: 0%;
+        display:  flex;
+        flex-direction: column;
+        padding: 0;
+       background-color: rgb(253, 168, 65) ;
+    }
+   .mhide{
+   display: 
+   none;
+    } 
+    .menu_icon{
+     display: flex;
+     gap: 15px;
+    }
+      
+}
+.hover:hover{
+    color: chocolate;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    display: flex;
+    overflow-x: auto;
+    margin: 20px 80px;
+    .item-box {
+        padding: 15px;
+
+        .img {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+
+        .name {
+            text-align: center;
+        }
+    }
+}
+
+.img-meal {
+    height: 300px;
+    width: 300px;
+    border-radius: 7px;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+.home-random-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 80px;
+    margin-bottom: 20px;
+    background: url("./Images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+        font-size: 40px;
+
+        span {
+            color: red;
+        }
+    }
+    img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 10px solid transparent;
+        box-shadow: 0px 0px 5px black;
+    }
+}
+#about-item-box {
+    overflow-x: auto;
+
+    .item-box {
+        height: fit-content;
+    }
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+#about-item-box::-webkit-scrollbar {
+    display: none;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px 80px;
+    width: 100%;
+
+    .about-head {
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .about-main-img {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .home-random-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 30px;
+        gap: 50px;
+        margin-bottom: 20px;
+        background: url("./Images/bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        h1 {
+            font-size: 40px;
+            span {
+                color: red;
+            }
+        }
+        img {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            border: 10px solid transparent;
+            box-shadow: 0px 0px 5px black;
+        }
+    }
+    .img-meal {
+        height: 200px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .box {
+        display: flex;
+        overflow-x: auto;
+        margin: 20px 40px;
+        .item-box {
+            padding: 7px;
+            .img {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+            }
+            .name {
+                text-align: center;
+            }
+        }
+    }
+
+}

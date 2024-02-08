@@ -1,0 +1,35 @@
+#about-item-box{
+  max-height: 400px;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+}
+.about-head{
+    color:  rgb(66, 3, 134);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.description{
+    color:  rgb(66, 3, 134);
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 890px){
+    .about-box{
+        padding: 40px 30px;
+        margin: 0;
+        .about-head{
+            padding-bottom: 20px;
+        }
+        .about-desc{
+        font-size: 18px;
+        }
+    }
+    #about-item-box{
+            .img{
+                height: 200px;
+                width: 200px;
+            }
+        }
+}
+.about-desc{
+    font-size: 20px;
+}

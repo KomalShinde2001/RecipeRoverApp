@@ -1,0 +1,26 @@
+.Search{
+    padding: 50px 80px;
+    .search-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: center;
+        .item-box{
+            margin: 25px 15px;
+            max-width: 350px;
+        }
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .item-box{
+        margin: 15px 10px;
+        max-width: 260px;
+    }
+        img {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            border: 10px solid transparent;
+        }
+    }

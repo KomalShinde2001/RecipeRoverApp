@@ -1,0 +1,60 @@
+.asideAboutMeal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 50px;
+    .meal-img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+}
+.mealDiscription{
+    span{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    padding: 20px 80px;
+    font-size: 20px;
+}
+.mealkeyword{
+    color:  rgb(66, 3, 134);
+    font-size: 25px;
+    font-weight: 600;
+}
+@media screen and (max-width: 890px){
+    .asideAboutMeal{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 40px 50px;
+        line-height: 22px;
+        .meal-img{
+            height: 270px;
+            width: 270px;
+            border-radius: 50%;
+        }
+    }
+    .mealDiscription{
+        span{
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        padding: 10px 30px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .mealkeyword{
+        color: red;
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
