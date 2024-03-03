@@ -1,7 +1,10 @@
 Recipe website
+
 • Recipe Rover is a responsive web application designed to help users discover and explore various recipes.
+
 • Recipe Rover fetches recipe data from a API and dynamically displays it in different components based on user
 interactions.
+
 • The project primarily utilizes React.js for front-end development, with HTML, SCSS, and JavaScript for crafting
 interactive user interfaces.
 
