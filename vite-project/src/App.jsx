@@ -1,10 +1,12 @@
-import React from 'react'
-import Router from './Project/Router'
 
-const App = () => {
+import React from 'react'
+import Project from 
+'./Project/Router'
+
+function App() {
   return (
     <div>
-      <Router/>
+      <Project/>
     </div>
   )
 }

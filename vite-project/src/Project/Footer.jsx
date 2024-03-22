@@ -44,7 +44,7 @@ const Footer = () => {
       
     </div>
                <div className='footer-bottom'>
-                    <p>&copy; 2024 Recipe <span>Rover</span>  |  All rights reserved  | Created by Mayur Satbhai</p>
+                    <p>&copy; 2024 Recipe <span>Rover</span>  |  All rights reserved  | Created by Komal Shinde</p>
                 </div>
     </div>
   )
